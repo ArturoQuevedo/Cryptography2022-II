@@ -208,6 +208,7 @@ def decrypt(dict, pairs,key):
 #---------Menu---------
 def menu():
     while True:
+        print("--------------PLAY FAIR CYPHER--------------")
         print("--------------BIENVENIDO--------------")
         print("ESCRIBA SU KEY EN key.txt")
         print("ESCRIBA SU TEXTO PLANO EN plain_text.txt")
