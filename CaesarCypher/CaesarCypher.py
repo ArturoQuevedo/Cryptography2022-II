@@ -60,7 +60,7 @@ def decrypt(cypheredText):
         if(character==" "):
             decrypted+=" "
         else:
-            x=((ord(character)-3-65)%26)
+            x=((ord(character)-4-65)%26)
             decrypted+=chr(x+65)
     return(decrypted)
 
